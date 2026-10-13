@@ -295,6 +295,7 @@ svg{width:1.1em;height:1.1em;fill:currentColor;flex:none}
   .dock{display:grid;grid-template-columns:1fr 1.4fr;gap:10px;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(7,55,66,.97)}
   .dock a{display:flex;justify-content:center;align-items:center;gap:.5em;min-height:48px;border-radius:999px;font-weight:700;text-decoration:none;color:#fff;border:2px solid rgba(255,255,255,.5)}
   .dock .dock-book{background:var(--gold);color:var(--text);border-color:var(--gold)}
+  .has-chat .dock{padding-right:84px} /* room for the GHL chat bubble (fixed 20px from the bottom right) */
 }
 .wide-ph{margin:36px 0 0}
 .wide-ph img{border-radius:var(--r);width:100%;aspect-ratio:16/7;object-fit:cover}
