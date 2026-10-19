@@ -352,3 +352,7 @@ svg{width:1.1em;height:1.1em;fill:currentColor;flex:none}
 html[lang="es"] .top-cta .tel span{display:none}
 @media (max-width:1240px){html[lang="es"] .nav{display:none}html[lang="es"] .menu{display:block;margin-left:0}html[lang="es"] .top-cta{margin-left:auto}}
 @media (max-width:1180px){.nav{gap:14px}.nav a{font-size:.94rem}}
+
+/* hover pill on mega-menu links, Gunnell-style (Chris, Oct 19 2026) */
+.nav .mega-grp>a{padding:7px 10px;margin-inline:-10px;border-radius:8px;transition:background .15s,color .15s}
+.nav .mega-grp>a:hover,.nav .mega-grp>a[aria-current]{background:var(--tint);color:var(--gold-text);text-decoration:none;opacity:1}
