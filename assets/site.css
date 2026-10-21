@@ -356,3 +356,5 @@ html[lang="es"] .top-cta .tel span{display:none}
 /* hover pill on mega-menu links, Gunnell-style (Chris, Oct 19 2026) */
 .nav .mega-grp>a{padding:7px 10px;margin-inline:-10px;border-radius:8px;transition:background .15s,color .15s}
 .nav .mega-grp>a:hover,.nav .mega-grp>a[aria-current]{background:var(--tint);color:var(--gold-text);text-decoration:none;opacity:1}
+
+.seal{margin:20px 0}.seal img{display:block;width:120px;height:auto}
