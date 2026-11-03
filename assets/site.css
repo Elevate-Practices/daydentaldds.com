@@ -358,3 +358,5 @@ html[lang="es"] .top-cta .tel span{display:none}
 .nav .mega-grp>a:hover,.nav .mega-grp>a[aria-current]{background:var(--tint);color:var(--gold-text);text-decoration:none;opacity:1}
 
 .seal{margin:20px 0}.seal img{display:block;width:120px;height:auto}
+
+.seals{display:flex;flex-wrap:wrap;align-items:center;gap:24px;margin:20px 0}.seals .seal{margin:0}.seals .seal img{width:auto;height:120px}
