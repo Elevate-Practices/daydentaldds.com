@@ -359,4 +359,4 @@ html[lang="es"] .top-cta .tel span{display:none}
 
 .seal{margin:20px 0}.seal img{display:block;width:120px;height:auto}
 
-.seals{display:flex;flex-wrap:wrap;align-items:center;gap:24px;margin:20px 0}.seals .seal{margin:0}.seals .seal img{width:auto;height:120px}
+.seals{display:grid;grid-template-columns:repeat(2,minmax(0,220px));gap:16px;margin:24px 0}.seals .seal{margin:0;height:136px;padding:18px;display:flex;align-items:center;justify-content:center;background:var(--white);border:1px solid var(--line);border-radius:16px}.seals .seal img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}@media(max-width:560px){.seals{grid-template-columns:1fr 1fr;gap:12px}.seals .seal{height:120px;padding:14px}}
